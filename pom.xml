@@ -49,9 +49,9 @@
                             <review.team>qa</review.team>
                         </deployProperties>
                         <publisher>
-                            <contextUrl>http://localhost/arifactory</contextUrl>
-                            <username>jenkins</username>
-                            <password>password123</password>
+                            <contextUrl>http://localhost/artifactory</contextUrl>
+                            <username>admin</username>
+                            <password>artifactory</password>
                             <repoKey>libs-release-local</repoKey>
                             <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
                         </publisher>
@@ -67,7 +67,12 @@
     <repository>
         <id>central</id>
         <name>594e44f505ac-releases</name>
-        <url>http://localhost/artifactory/libs-release-local</url>
+        <url>http://localhost/artifactory/Jenkins-integration</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>594e44f505ac-snapshots</name>
+        <url>http://localhost/artifactory/Jenkins-integration</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
