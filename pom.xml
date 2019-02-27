@@ -49,7 +49,7 @@
                             <review.team>qa</review.team>
                         </deployProperties>
                         <publisher>
-                            <contextUrl>http://localhost</contextUrl>
+                            <contextUrl>http://localhost/arifactory</contextUrl>
                             <username>jenkins</username>
                             <password>password123</password>
                             <repoKey>libs-release-local</repoKey>
