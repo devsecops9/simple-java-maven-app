@@ -50,8 +50,8 @@
                         </deployProperties>
                         <publisher>
                             <contextUrl>http://localhost</contextUrl>
-                            <username>admin</username>
-                            <password>artifactory</password>
+                            <username>jenkins</username>
+                            <password>password123</password>
                             <repoKey>libs-release-local</repoKey>
                             <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
                         </publisher>
