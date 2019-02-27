@@ -49,9 +49,9 @@
                             <review.team>qa</review.team>
                         </deployProperties>
                         <publisher>
-                            <contextUrl>https://oss.jfrog.org</contextUrl>
-                            <username>deployer</username>
-                            <password>{DESede}...</password>
+                            <contextUrl>http://localhost</contextUrl>
+                            <username>admin</username>
+                            <password>artifactory</password>
                             <repoKey>libs-release-local</repoKey>
                             <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
                         </publisher>
