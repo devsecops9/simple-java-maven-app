@@ -52,8 +52,8 @@
                             <contextUrl>http://localhost/artifactory</contextUrl>
                             <username>admin</username>
                             <password>artifactory</password>
-                            <repoKey>libs-release-local</repoKey>
-                            <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
+                            <repoKey> jenkins-snapshot</repoKey>
+                            <snapshotRepoKey> jenkins-snapshot</snapshotRepoKey>
                         </publisher>
                     </configuration>
                 </execution>
