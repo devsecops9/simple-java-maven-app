@@ -60,7 +60,9 @@
         </plugin>
     
     </plugins>
-<distributionManagement>
+
+  </build>
+     <distributionManagement>
     <repository>
         <id>central</id>
         <name>d79ad480f694-releases</name>
@@ -72,6 +74,4 @@
         <url>http://192.168.24.136:8089/artifactory/bbsi-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
-  </build>
-     
 </project>
