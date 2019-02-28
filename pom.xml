@@ -52,7 +52,7 @@
                             <username>admin</username>
                             <password>osicpl@123</password>
                             <repoKey> jenkins-snapshot</repoKey>
-                            <snapshotRepoKey> jenkins-snapshot</snapshotRepoKey>
+                            <snapshotRepoKey>bbsi-snapshot</snapshotRepoKey>
                         </publisher>
                     </configuration>
                 </execution>
