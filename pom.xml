@@ -51,7 +51,7 @@
                         <publisher>
                             <contextUrl>http://192.168.24.136:8089/artifactory</contextUrl>
                             <username>admin</username>
-                            <password>artifactory</password>
+                            <password>osicpl@123</password>
                             <repoKey> jenkins-snapshot</repoKey>
                             <snapshotRepoKey> jenkins-snapshot</snapshotRepoKey>
                         </publisher>
